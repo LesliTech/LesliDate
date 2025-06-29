@@ -1,7 +1,7 @@
 
 <div align="center">
     <img width="100" alt="LesliDate logo" src="./docs/images/date-logo.svg" />
-    <h3 align="center">Standard Datetime Formatter.</h3>
+    <h3 align="center">Standard Datetime Formatter for The Lesli Framework.</h3>
 </div>
 
 <br />
