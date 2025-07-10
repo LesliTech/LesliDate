@@ -1,5 +1,4 @@
-
-<div align="center">
+<div align="center" class="documentation-header">
     <img width="100" alt="LesliDate logo" src="./docs/images/date-logo.svg" />
     <h3 align="center">Standard Datetime Formatter for The Lesli Framework.</h3>
 </div>
@@ -7,7 +6,7 @@
 <br />
 <hr/>
 
-<p align="center" class="is-flex is-justify-content-center">
+<div align="center" class="documentation-statics">
     <a target="blank" href="https://rubygems.org/gems/lesli">
         <img height="22" alt="Gem Version" src="https://badge.fury.io/rb/lesli.svg"/>
     </a>
@@ -17,10 +16,11 @@
     <a href="https://codecov.io/github/LesliTech/LesliBabel"> 
         <img height="22" src="https://sonarcloud.io/api/project_badges/measure?project=LesliTech_LesliBabel&metric=sqale_rating"/> 
     </a>
-</p>
+</div>
 
 <hr/>
 <br />
+
 
 ### Quick start
 
@@ -29,10 +29,15 @@
 bundle add lesli_date
 ```
 
+
 ### Documentation
+- **Date:**
+    - [Parser](https://www.lesli.dev/gems/view/component-header)
+
+
+### Lesli Documentation
 * [website](https://www.lesli.dev/)
-* [database](./docs/database.md)
-* [documentation](https://www.lesli.dev/gems/gems/)
+* [documentation](https://www.lesli.dev/gems/view/)
 
 
 ### Get in touch with Lesli
@@ -62,8 +67,7 @@ along with this program. If not, see http://www.gnu.org/licenses/.
 <hr />
 <br />
 
-<p align="center">
+<div align="center" class="has-text-centered">
     <img width="200" alt="Lesli logo" src="https://cdn.lesli.tech/lesli/brand/app-logo.svg" />
-    <h4 align="center">Ruby on Rails SaaS Development Framework.</h4>
-</p>
-
+    <h4 align="center" class="mt-0">Ruby on Rails SaaS Development Framework.</h4>
+</div>
