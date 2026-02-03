@@ -117,12 +117,20 @@ module LesliDate
             # get right format for dates
             format = self.db_format
 
+            # compatibility for SQLite
+            if ActiveRecord::Base.connection.adapter_name == "SQLite"
+                offset = ActiveSupport::TimeZone[@settings[:time_zone]].utc_offset / 3600
+                return "strftime('#{format}', #{table}created_at, '#{offset} hours') as created_at_string"
+            end
+
             "TO_CHAR(#{table}created_at at time zone 'utc' at time zone '#{@settings[:time_zone]}', '#{format}') as created_at_date, TO_CHAR(#{table}updated_at at time zone 'utc' at time zone '#{@settings[:time_zone]}', '#{format}') as updated_at_date"
 
         end
 
         # return query string to get a datetime column from database
-        def db_column column, table=""
+        def db_column column, table="", as:nil
+
+            as = "#{column}_string" unless as
 
             # avoid ambiguous columns
             table = table.concat(".") if table != ""
@@ -132,10 +140,11 @@ module LesliDate
 
             # compatibility for SQLite
             if ActiveRecord::Base.connection.adapter_name == "SQLite"
-                return "strftime('#{format}', #{table}#{column}) as #{column}_string"
+                offset = ActiveSupport::TimeZone[@settings[:time_zone]].utc_offset / 3600
+                return "strftime('#{format}', #{table}#{column}, '#{offset} hours') as #{as}"
             end
 
-            "TO_CHAR(#{table}#{column} at time zone 'utc' at time zone '#{@settings[:time_zone]}', '#{format}') as #{column}_string"
+            "TO_CHAR(#{table}#{column} at time zone 'utc' at time zone '#{@settings[:time_zone]}', '#{format}') as #{as}"
 
         end
 
