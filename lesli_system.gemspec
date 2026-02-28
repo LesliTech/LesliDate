@@ -56,8 +56,4 @@ Gem::Specification.new do |spec|
     spec.bindir = "exe"
     spec.executables = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
     spec.require_paths = ["lib"]
-
-
-    # Ruby version
-    spec.required_ruby_version = ">= 2.7"
 end

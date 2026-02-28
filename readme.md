@@ -7,14 +7,8 @@
 <hr/>
 
 <div align="center" class="documentation-statics">
-    <a target="blank" href="https://rubygems.org/gems/lesli">
-        <img height="22" alt="Gem Version" src="https://badge.fury.io/rb/lesli.svg"/>
-    </a>
-    <a class="mx-2" href="https://codecov.io/github/LesliTech/Lesli"> 
-        <img height="22" src="https://codecov.io/github/LesliTech/Lesli/graph/badge.svg?token=2O12NENK5Y"/> 
-    </a>
-    <a href="https://codecov.io/github/LesliTech/LesliBabel"> 
-        <img height="22" src="https://sonarcloud.io/api/project_badges/measure?project=LesliTech_LesliBabel&metric=sqale_rating"/> 
+    <a target="blank" href="https://rubygems.org/gems/lesli_view">
+        <img alt="Gem Version" src="https://img.shields.io/gem/v/lesli_view?style=for-the-badge&logo=ruby">
     </a>
 </div>
 
@@ -31,25 +25,20 @@ bundle add lesli_date
 
 
 ### Documentation
-- **Date:**
-    - [Parser](https://www.lesli.dev/gems/view/component-header)
-
-
-### Lesli Documentation
 * [website](https://www.lesli.dev/)
-* [documentation](https://www.lesli.dev/gems/view/)
+* [documentation](https://www.lesli.dev/gems/testing/)
 
 
-### Get in touch with Lesli
+### Connect with Lesli
 
+* [X: @LesliTech](https://x.com/LesliTech)
 * [Email: hello@lesli.tech](hello@lesli.tech)
 * [Website: https://www.lesli.tech](https://www.lesli.tech)
-* [Twitter: @LesliTech](https://twitter.com/LesliTech)
 
 
 ### License
 -------
-Copyright (c) 2025, Lesli Technologies, S. A.
+Copyright (c) 2026, Lesli Technologies, S. A.
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -64,10 +53,17 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program. If not, see http://www.gnu.org/licenses/.
 
+<br />
 <hr />
+<br />
 <br />
 
 <div align="center" class="has-text-centered">
     <img width="200" alt="Lesli logo" src="https://cdn.lesli.tech/lesli/brand/app-logo.svg" />
-    <h4 align="center" class="mt-0">Ruby on Rails SaaS Development Framework.</h4>
+    <h3 align="center" class="mt-0">
+        The Open-Source SaaS Development Framework for Ruby on Rails.
+    </h3>
 </div>
+
+<br />
+<br />
