@@ -126,6 +126,9 @@ bundle exec rake
 
 - [Lesli website](https://www.lesli.dev/)
 - [Documentation](https://www.lesli.dev/gems/date/)
+- [Installation](https://www.lesli.dev/gems/date/about/installation)
+- [Formatter API](https://www.lesli.dev/gems/date/api/formatter)
+- [Database expressions](https://www.lesli.dev/gems/date/api/database)
 - [Release notes](https://github.com/LesliTech/LesliDate/releases)
 - [Issue tracker](https://github.com/LesliTech/LesliDate/issues)
 - [Source code](https://github.com/LesliTech/LesliDate)
